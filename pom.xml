@@ -17,7 +17,9 @@
         <minecraft.version>1.20-R0.1-SNAPSHOT</minecraft.version>
         <github.global.server>github</github.global.server>
         <github.maven-plugin>0.9</github.maven-plugin>
+        <gpg.skip>true</gpg.skip>
     </properties>
+
 
     <repositories>
         <repository>
@@ -28,14 +30,12 @@
             <id>dmulloy2-repo</id>
             <url>https://repo.dmulloy2.net/repository/public/</url>
         </repository>
-
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/hjrkgrngjirjngjrijgnjrjgnjrgrnjgjrgj/PacketWrapper</url>
         </repository>
     </distributionManagement>
 
@@ -239,4 +239,5 @@
             </plugin>
         </plugins>
     </reporting>
+
 </project>
