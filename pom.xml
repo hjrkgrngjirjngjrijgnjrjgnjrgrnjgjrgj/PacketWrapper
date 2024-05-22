@@ -35,7 +35,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/hjrkgrngjirjngjrijgnjrjgnjrgrnjgjrgj</url>
+            <url>https://maven.pkg.github.com/hjrkgrngjirjngjrijgnjrjgnjrgrnjgjrgj/PacketWrapper</url>
         </repository>
     </distributionManagement>
 
